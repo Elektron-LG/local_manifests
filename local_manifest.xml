@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+      <remote name="thlg" 
+	fetch="https://github.com/TeamHackLG/" />
+      <remote name="tv" 
+	fetch="https://github.com/TeamVee/" />
+      <remote name="lg" 
+	fetch="https://github.com/Elektron-LG/" />
+      <remote name="gh" 
+	fetch="https://github.com/" />
+
+	<project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" revision="cm-11.0" remote="thlg" />
+	<project path="bootable/recovery-omni" name="android_bootable_recovery" revision="cm-11.0" remote="tv" />
+	<project path="kernel/lge/msm7x27a-common" name="aidasaidas75/lge-kernel-lproj" revision="cm-12.1" remote="gh" />
+	<project path="vendor/lge" name="proprietary_vendor_lge" revision="cm-11.0" remote="thlg" />
+	<project path="device/lge/e610" name="android_device_lge_e610" revision="cm-11.0" remote="lg" />
+	<project path="device/lge/p700" name="android_device_lge_p700" revision="cm-11.0" remote="lg" />
+	<project path="device/lge/msm7x27a-common" name="android_device_lge_msm7x27a-common" revision="cm-11.0" remote="lg" />
+</manifest>
